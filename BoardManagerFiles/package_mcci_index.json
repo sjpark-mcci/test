@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "MCCI Catena Boards",
+          "name": "MCCI Corp Catena Boards",
           "architecture": "samd",
           "version": "0.1.1",
           "category": "Contributed",
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "name": "MCCI Connection Exerciser ",
+          "name": "MCCI Corp Connection Exerciser ",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
