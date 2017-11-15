@@ -33,8 +33,8 @@
             },
             {
               "packager": "arduino",
-              "name": "bossac",
-              "version": "1.7.0"
+              "version": "1.6.1-arduino",
+              "name": "bossac"
             },
             {
               "packager": "arduino",
@@ -50,6 +50,34 @@
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.1.0"
+            }
+          ]
+        },
+        {
+          "name": "MCCI Connection Exerciser ",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/mukeshbharath/MCCI-3201-Connection-Exerciser/raw/master/Model-3201-BSP-V1_0_0.tar",
+          "archiveFileName": "Model-3201-BSP-V1_0_0.tar",
+          "checksum": "SHA-256:b3f3f3ea71606d506607fc72b8b2fef634db7fd1bd7041d8891fe60b0829748f",
+          "size": "17292288",
+          "boards": [
+            {"name": "MCCI-3201-Connection-Exerciser"}
+          ],
+          "toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            },
+			{
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.3-arduino2"
             }
           ]
         }
