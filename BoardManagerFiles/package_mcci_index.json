@@ -17,10 +17,10 @@
           "help": {
             "online": "https://portal.mcci.com"
           },
-          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/ArduinoCore-samd-V0_1_1.zip",
-          "archiveFileName": "ArduinoCore-samd-V0_1_1.zip",
-          "checksum": "SHA-256:174bf785889a7c2eb58dd7950669d83108dc9f0c783fd66bfbad4ec75b9e6334",
-          "size": "18089254",
+          "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/ArduinoCore-samd.zip",
+          "archiveFileName": "ArduinoCore-samd.zip",
+          "checksum": "SHA-256:c64cdc34d1770d3715bb84ddafa449e83f7a32602fbcfd8c656a2c4d87a222a6",
+          "size": "18089257",
           "boards": [
             {"name": "Catena4410"},
             {"name": "Catena4450"}
@@ -62,9 +62,9 @@
             "online": "https://portal.mcci.com"
           },
           "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32.zip",
-          "archiveFileName": "ArduinoCore-samd-V0_1_1.zip",
-          "checksum": "SHA-256:a42bd7e0e83765032e3908b1a0ff8042d3d6fe274ae842c4ad5ae1fa88926613",
-          "size": "2617711",
+          "archiveFileName": "Arduino_Core_STM32.zip",
+          "checksum": "SHA-256:33288b3c2ad1adcfe3291004ca1384736f43ed494203203080deff69187ae4eb",
+          "size": "2617708",
           "boards": [
             {"name": "Catena4551"}
           ],
