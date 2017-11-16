@@ -66,7 +66,7 @@
           "checksum": "SHA-256:a42bd7e0e83765032e3908b1a0ff8042d3d6fe274ae842c4ad5ae1fa88926613",
           "size": "2617711",
           "boards": [
-            {"name": "Catena4550"}
+            {"name": "Catena4551"}
           ],
           "toolsDependencies": [
            {
