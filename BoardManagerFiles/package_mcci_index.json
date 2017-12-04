@@ -110,7 +110,7 @@
             {
               "version": "1.0",
               "name": "TestTools",
-              "packager": "STM32"
+              "packager": "mcci"
             },
             {
               "packager": "arduino",
