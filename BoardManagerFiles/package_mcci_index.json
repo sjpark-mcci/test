@@ -12,7 +12,7 @@
         {
           "name": "MCCI Corp Catena SAMD Boards",
           "architecture": "samd",
-          "version": "0.1.1",
+          "version": "0.1.0",
           "category": "Contributed",
           "help": {
             "online": "https://portal.mcci.com"
@@ -56,7 +56,7 @@
         {
           "name": "MCCI Corp Catena STM32 Boards",
           "architecture": "stm32",
-          "version": "0.1.1",
+          "version": "0.1.0-Rev.A",
           "category": "Contributed",
           "help": {
             "online": "https://portal.mcci.com"
@@ -77,6 +77,39 @@
             {
               "version": "2017.9.22",
               "name": "STM32Tools",
+              "packager": "STM32"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+                {
+          "name": "MCCI Corp Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "0.1.0-Rev.B",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-20171124.zip",
+          "archiveFileName": "Arduino_Core_STM32-20171124.zip",
+          "checksum": "SHA-256:8b10427717aa83a6863deb1d44ef922c19a339c5db15efb44eb7d644b90435b0",
+          "size": "2507347",
+          "boards": [
+            {"name": "Catena4551"}
+          ],
+          "toolsDependencies": [
+           {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "STM32"
+            },
+            {
+              "version": "1.0",
+              "name": "TestTools",
               "packager": "STM32"
             },
             {
@@ -217,7 +250,41 @@
               "size": "525710"
             }
           ]
-        }     
+        },
+        {
+          "systems": [
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "9280004",
+              "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
+              "archiveFileName": "STM32Tools.zip",
+              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "1.0",
+          "name": "TestTools"
+        }   
       ]
     }
   ]
