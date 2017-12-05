@@ -75,7 +75,7 @@
               "packager": "mcci"
             },
             {
-              "version": "2017.9.22",
+              "version": "2017.9.22-mcci",
               "name": "STM32Tools",
               "packager": "mcci"
             },
