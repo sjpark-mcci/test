@@ -72,7 +72,7 @@
            {
               "version": "6-2017-q2-update",
               "name": "arm-none-eabi-gcc",
-              "packager": "MCCI"
+              "packager": "mcci"
             },
             {
               "version": "2017.9.22",
@@ -318,7 +318,7 @@
           ],
           "version": "2017.9.22-mcci",
           "name": "STM32Tools"
-        }
+        }   
       ]
     }
   ]
