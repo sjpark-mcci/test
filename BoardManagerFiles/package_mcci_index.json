@@ -108,9 +108,9 @@
               "packager": "STM32"
             },
             {
-              "version": "1.0",
-              "name": "TestTools",
-              "packager": "mcci"
+              "version": "2017.9.22",
+              "name": "STM32Tools",
+              "packager": "STM32"
             },
             {
               "packager": "arduino",
