@@ -96,8 +96,8 @@
           },
           "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-20171124.zip",
           "archiveFileName": "Arduino_Core_STM32-20171124.zip",
-          "checksum": "SHA-256:8b10427717aa83a6863deb1d44ef922c19a339c5db15efb44eb7d644b90435b0",
-          "size": "2507347",
+          "checksum": "SHA-256:ea814b8906b8d2c4237d225d897aacb4d5df940754eaec9218bade177626c9f2",
+          "size": "2507340",
           "boards": [
             {"name": "Catena4551"}
           ],
