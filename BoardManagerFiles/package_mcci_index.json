@@ -23,7 +23,8 @@
           "size": "18089257",
           "boards": [
             {"name": "Catena4410"},
-            {"name": "Catena4450"}
+            {"name": "Catena4450"},
+            {"name": "Catena4460"}
           ],
           "toolsDependencies": [
             {
@@ -33,7 +34,7 @@
             },
             {
               "packager": "arduino",
-              "version": "1.6.1-arduino",
+              "version": "1.7.0",
               "name": "bossac"
             },
             {
@@ -61,7 +62,7 @@
           "help": {
             "online": "https://portal.mcci.com"
           },
-          "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32.zip",
+          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32.zip",
           "archiveFileName": "Arduino_Core_STM32.zip",
           "checksum": "SHA-256:33288b3c2ad1adcfe3291004ca1384736f43ed494203203080deff69187ae4eb",
           "size": "2617708",
@@ -94,9 +95,9 @@
           "help": {
             "online": "https://portal.mcci.com"
           },
-          "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-20171124.zip",
-          "archiveFileName": "Arduino_Core_STM32-20171124.zip",
-          "checksum": "SHA-256:ea814b8906b8d2c4237d225d897aacb4d5df940754eaec9218bade177626c9f2",
+          "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/packages/Arduino_Core_STM32-20171124-usb.zip",
+          "archiveFileName": "Arduino_Core_STM32-20171124-usb.zip",
+          "checksum": "SHA-256:dc564ee25c9579fcda8f60c46f9fba0e31cb476ef6654578483720d8656ab802",
           "size": "2507340",
           "boards": [
             {"name": "Catena4551"}
@@ -291,28 +292,28 @@
               "size": "9280004",
               "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
               "archiveFileName": "STM32Tools.zip",
-              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
               "host": "i686-linux-gnu"
             },
             {
               "size": "9280004",
               "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
               "archiveFileName": "STM32Tools.zip",
-              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
               "host": "x86_64-pc-linux-gnu"
             },
             {
               "size": "9280004",
               "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
               "archiveFileName": "STM32Tools.zip",
-              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
               "host": "i686-mingw32"
             },
             {
               "size": "9280004",
               "checksum": "SHA-256:cc1e814e2543ef8b3c08811308624e14e78df64e2adcd975eb0f7005014a0bcc",
               "archiveFileName": "STM32Tools.zip",
-              "url": "https://github.com/sjpark-mcci/test/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools.zip",
               "host": "i386-apple-darwin11"
             }
           ],
