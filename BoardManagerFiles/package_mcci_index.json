@@ -351,8 +351,8 @@
               "packager": "mcci"
             },
             {
-              "version": "2017.9.22-mcci",
-              "name": "STM32Tools",
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools-2018.3.23-mcci",
               "packager": "mcci"
             },
             {
@@ -589,7 +589,41 @@
           ],
           "version": "2017.9.22-mcci",
           "name": "STM32Tools"
-        }   
+        },
+        {
+          "systems": [
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "2018.3.23-mcci",
+          "name": "STM32Tools-2018.3.23-mcci"
+        }    
       ]
     }
   ]
