@@ -427,6 +427,53 @@
             }
           ]
         },
+	{
+          "name": "MCCI Catena SAMD Boards",
+          "architecture": "samd",
+          "version": "9.9.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/sjpark-mcci/test/blob/master/BoardManagerFiles/packages/ArduinoCore-samd-samd-driver-installer.zip",
+          "archiveFileName": "Arduino_Core_SAMD-9.9.0.zip",
+          "checksum": "SHA-256:7cb73bf5afa4659b337871b0bfe8c960465246de5c05a689e0c3c341d3ff23bb",
+          "size": "9568515",
+          "boards": [
+            {"name": "Catena 4410"},
+	    {"name": "Catena 4420"},  
+            {"name": "Catena 4450"},
+            {"name": "Catena 4460"},
+	    {"name": "Catena 4470"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.7.0",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        },
         {
           "name": "MCCI Catena STM32 Boards",
           "architecture": "stm32",
@@ -1182,6 +1229,46 @@
           "archiveFileName": "Arduino_Core_STM32-2_7_0.tar.gz",
           "checksum": "SHA-256:8a166c06154f7d2ccd5f17117041456b48095064fefc869a712ca775e9456a23",
           "size": "6213335",
+          "boards": [
+            {"name": "Catena4551"},
+	    {"name": "Catena4610"},
+	    {"name": "Catena4611"},
+	    {"name": "Catena4612"},
+	    {"name": "Catena4617"},
+	    {"name": "Catena4618"},
+	    {"name": "Catena4630"},
+	    {"name": "Catena4801"}
+          ],
+          "toolsDependencies": [
+           {
+              "version": "6-2017-q2-update",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+	{
+          "name": "MCCI Catena STM32 Boards",
+          "architecture": "stm32",
+          "version": "9.9.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://portal.mcci.com"
+          },
+          "url": "https://github.com/sjpark-mcci/test/blob/master/BoardManagerFiles/packages/Arduino_Core_STM32-stm32-driver-installer.zip",
+          "archiveFileName": "Arduino_Core_STM32-9_9_0.zip",
+          "checksum": "SHA-256:9d8dffdf4eea5626877b4cbb1fa827af6088c8fd994e9c331e050cbb94cefb17",
+          "size": "9634608",
           "boards": [
             {"name": "Catena4551"},
 	    {"name": "Catena4610"},
